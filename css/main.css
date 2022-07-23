@@ -1,0 +1,253 @@
+/* hind-siliguri-300 - latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+    url('../fonts/hind-siliguri-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-siliguri-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-siliguri-regular - latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url('../fonts/hind-siliguri-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-siliguri-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-siliguri-500 - latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+    url('../fonts/hind-siliguri-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-siliguri-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* hind-siliguri-600 - latin */
+@font-face {
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url('../fonts/hind-siliguri-v12-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/hind-siliguri-v12-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri';
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.visually-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/*header bo'limi*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+    align-items: center;
+}
+.header-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+.header-item{
+    margin-right: 56px;
+    position: relative;
+}
+.header-links{
+    text-decoration: none;
+    color: #030D15;
+    text-transform: uppercase;
+}
+.header-links-wrapper{
+    display: flex;
+}
+.header-link-active{
+    text-decoration: none;
+    color: #030D15;
+}
+.header-icons-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.header-icons-list:last-child{
+    margin-right: 0;
+}
+.header-icons-item{
+    margin-right: 30px;
+}
+.header-item::after{
+    display: block;
+    content: '';
+    width: 8px;
+    height: 4px;
+    background-image: url(../img/strelka.svg);
+    position: absolute; 
+    left: calc(100% + 8px);
+    bottom: 50%;
+}
+/* header bo'limi tugadi*/
+/*intro bo'limi*/
+.intro{
+    margin-top: 129px;
+    margin-bottom: 90px;
+    position: relative;
+}
+.intro::after{
+    content: '';
+    display: block;
+    width: 643px ;
+    height: 611px;
+    position: absolute;
+    background-image: url(../img/intro-radio.png);
+    right: 0;
+    top: -54px;
+}
+.intro-title-span{
+    color: #247CC0;
+}
+.intro-contents-wrapper{
+    width: 555px;
+}
+.intro-brands{
+    text-transform: uppercase;
+    letter-spacing: 0.145em;
+    color: #C72535;
+    opacity: 0.6;
+    margin: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.intro-text-title{
+    margin: 0;
+    color: #030D15;
+    font-weight: 600;
+    font-size: 61px;
+    line-height: 73px;
+    margin-top: 3px;
+    margin-bottom: 29px;
+}
+.intro-description{
+    margin: 0;
+    color: #030D15;
+    opacity: 0.6;
+    margin-bottom: 52px;
+}
+.intro-href{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 16px 35px 16px 34px;
+    background-color: #247CC0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.intro-cost{
+    margin: 0;
+    color: #030D15;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    margin-left: 66px;
+}
+.intro-span{
+    color: #030D15;
+    opacity: 0.5;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 27px;
+    text-decoration: line-through;
+    margin-left: 18px;
+}
+.intro-costs-wrapper{
+    display: flex;
+    align-items: center;
+}
+/*intro bo'limi tugadi
+/* styles bo'limi */
+.styles{
+    padding-top: 76px;
+    padding-bottom: 76px;
+}
+.styles-container{
+    background-color: #FFFFFF;
+}
+.styles-list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.styles-item{
+    margin-right: 84px;
+}
+.styles-item:last-child{
+    margin-right: 0;
+}
+.styles-contents-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 132px;
+    margin-bottom: 160px;
+}
+.styles-text-wrapper{
+    width: 290px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.styles-title{
+    margin: 0;
+    color: #030D15;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    
+}
+.styles-description{
+    margin: 0;
+    color: #030D15;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    opacity: 0.6;
+    margin-top: 9px;
+    margin-bottom: 20px;
+}
+.styles-cost{
+    margin: 0;
+    color: #030D15;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 15px;
+}
+.styles-cost-span{
+    opacity: 0.5;
+}
+/* styles bo'limi tugadi */
