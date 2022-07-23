@@ -191,11 +191,13 @@
 /*intro bo'limi tugadi
 /* styles bo'limi */
 .styles{
-    padding-top: 76px;
-    padding-bottom: 76px;
+    margin-top: 120px;
+    margin-bottom: 160px;
 }
 .styles-container{
     background-color: #FFFFFF;
+    padding-top: 76px;
+    padding-bottom: 76px;
 }
 .styles-list{
     margin: 0;
@@ -214,7 +216,6 @@
     display: flex;
     justify-content: space-between;
     margin-top: 132px;
-    margin-bottom: 160px;
 }
 .styles-text-wrapper{
     width: 290px;
@@ -251,3 +252,46 @@
     opacity: 0.5;
 }
 /* styles bo'limi tugadi */
+/* shop bo'limi */
+.shop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 160px;
+}
+.shop-text-wrapper{
+    background: linear-gradient(257.26deg, #008BF0 -13.2%, #D943C9 130.95%);
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+    padding-top: 75px;
+    padding-left: 35px;
+    padding-bottom: 74px;
+    display: flex;
+    align-items: center;
+    width: 555px;
+    height: 296px;
+}
+.shop-text{
+    margin: 0;
+    color: #F4F9FC;
+    opacity: 0.6;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+}
+.shop-title{
+    margin: 0;
+    color: #F4F9FC;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 40px;
+    margin-top: 5px ;
+    margin-bottom: 7px;
+}
+.shop-link{
+    text-decoration: none;
+    color: #F4F9FC;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+/* shop bo'limi tugadi */
